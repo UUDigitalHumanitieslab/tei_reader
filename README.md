@@ -6,7 +6,7 @@ The library focuses on extracting the main text content from a file and provide 
 
 # TL;DR
 
-```
+```bash
 pip install tei-reader
 ```
 
@@ -38,3 +38,10 @@ A reader can be opened using `TeiReader()`. It is then possible to either call `
 | `parts[]` | Recursively get the parts in document order constituting the entire text e.g. if something has emphasis, a footnote or is marked as foreign. Text without a container element will be returned in order and wrapped with a `PlaceholderPart`. |
 
 `Attribute`, `PlaceholderDivision` and `PlaceholderPart` all support the same properties as `Element`.
+
+# Upload to PyPi
+
+```bash
+python setup.py sdist
+twine upload dist/*
+```
