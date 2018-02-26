@@ -1,0 +1,17 @@
+<!ELEMENT attribute (#PCDATA | attributes | div | part)*>
+<!ATTLIST attribute id CDATA #IMPLIED>
+<!ATTLIST attribute key CDATA #IMPLIED>
+<!ATTLIST attribute value CDATA #IMPLIED>
+<!ELEMENT attributes (attribute*)>
+<!ATTLIST attributes id CDATA #IMPLIED>
+<!ATTLIST attributes key CDATA #IMPLIED>
+<!ELEMENT corpus (attributes | document)*>
+<!ATTLIST corpus id CDATA #IMPLIED>
+<!ELEMENT div (#PCDATA | attributes | part | div)*>
+<!ATTLIST div id CDATA #IMPLIED>
+<!ATTLIST div tei-tag CDATA #REQUIRED>
+<!ELEMENT document (attributes | div)*>
+<!ATTLIST document id CDATA #IMPLIED>
+<!ELEMENT part (#PCDATA | attributes | part)*>
+<!ATTLIST part id CDATA #IMPLIED>
+<!ATTLIST part tei-tag CDATA #REQUIRED>

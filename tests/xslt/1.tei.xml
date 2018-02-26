@@ -1,0 +1,95 @@
+<!-- from TEI by example http://teibyexample.org/examples/TBED02v00.htm -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Colloquia familiaria</title>
+                <author>Desiderius Erasmus</author>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="JN">Jennifer K. Nelson</name>
+                    <name xml:id="GE">Gretche Ermer</name>
+                </respStmt>
+                <principal>A. Ross Scaife</principal>
+                <sponsor>Cultural Heritage Language Technologies</sponsor>
+                <funder>NSF-EU</funder>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>Lexington, KY</pubPlace>
+                <publisher>Stoa Consortium</publisher>
+                <address>
+                    <addrLine>Department of Modern and Classical Languages, Literatures and Cultures</addrLine>
+                    <addrLine>1055 Patterson Office Tower</addrLine>
+                    <addrLine>University of Kentucky</addrLine>
+                    <addrLine>Lexington, KY 40506-0027</addrLine>
+                    <addrLine>url:http://www.stoa.org</addrLine>
+                </address>
+                <date>2002-09-05</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Erasmus, Desiderius, d. 1536</author>
+                        <title type="main">Desiderii Erasmi Roterodami colloquia familiaria</title>
+                        <title type="subordinate">ad optimarum editionum fidem diligenter emendata, cum succincta difficiliorum explanatione</title>
+                        <edition>Ed. stereotypa</edition>
+                        <imprint>
+                            <pubPlace>Lipsiae</pubPlace>
+                            <publisher>sumptibus Ottonis Holtze</publisher>
+                            <date>1867-1872</date>
+                        </imprint>
+                        <extent>771 p. (2 vols) ; 15 cm.</extent>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <samplingDecl>
+                <p>Editorial notes in the Holtze edition have not been reproduced</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization method="silent">
+                    <p>Original punctuation conventions in the Holtze edition have been retained as much as possible</p>
+                </normalization>
+                <hyphenation eol="none">
+                    <p>Hyphenated words that appear at the end of the line in the Holtze edition have been reformed</p>
+                </hyphenation>
+                <interpretation>
+                    <p>Italics are recorded without interpretation</p>
+                </interpretation>
+            </editorialDecl>
+            <refsDecl>
+                <refState unit="colloquium"/>
+                <refState unit="topic"/>
+            </refsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>Library of Congress Subject Headings</bibl>
+                </taxonomy>
+                <taxonomy xml:id="lc">
+                    <bibl>Library of Congress Classification</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Ancient Greek</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Dialogues, Latin (Medieval and modern)</item>
+                        <item>Folly -- Early works to 1800</item>
+                    </list>
+                </keywords>
+                <classCode scheme="#lc">PA8501</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2004-03-01" who="#GE">[ed] added text of "De utilitate colloquiorum ad lectorem"</change>
+            <change when="2003-10-14" who="#JN">[ed] expanded TEI header to include more information, e.g. LC subject headings and LC classification</change>
+            <change when="2002-09-01" who="#JN">[markup]: began tei-compliant markup</change>
+        </revisionDesc>
+    </teiHeader>
+</TEI>

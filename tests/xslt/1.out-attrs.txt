@@ -1,0 +1,53 @@
+[fileDesc::titleStmt="Colloquia familiaria
+Desiderius Erasmus
+Encoded byJennifer K. NelsonGretche Ermer
+A. Ross Scaife
+Cultural Heritage Language Technologies
+NSF-EU"
+fileDesc::publicationStmt="Lexington, KY
+Stoa Consortium
+Department of Modern and Classical Languages, Literatures and Cultures
+1055 Patterson Office Tower
+University of Kentucky
+Lexington, KY 40506-0027
+url:http://www.stoa.org
+2002-09-05"
+fileDesc::sourceDesc="Erasmus, Desiderius, d. 1536
+Desiderii Erasmi Roterodami colloquia familiariaad optimarum editionum fidem diligenter emendata, cum succincta difficiliorum explanatione
+Ed. stereotypa
+Lipsiae
+sumptibus Ottonis Holtze
+1867-1872
+771 p. (2 vols) ; 15 cm."
+fileDesc::sourceDesc::type="main"
+fileDesc::sourceDesc::type="subordinate"
+encodingDesc::samplingDecl="Editorial notes in the Holtze edition have not been reproduced"
+encodingDesc::editorialDecl=""
+encodingDesc::editorialDecl::normalization::method="silent"
+encodingDesc::editorialDecl::normalization="Original punctuation conventions in the Holtze edition have been retained as much as possible"
+encodingDesc::editorialDecl::hyphenation::eol="none"
+encodingDesc::editorialDecl::hyphenation="Hyphenated words that appear at the end of the line in the Holtze edition have been reformed"
+encodingDesc::editorialDecl::interpretation="Italics are recorded without interpretation"
+encodingDesc::refsDecl=""
+encodingDesc::refsDecl::refState::unit="colloquium"
+encodingDesc::refsDecl::refState::unit="topic"
+encodingDesc::classDecl=""
+encodingDesc::classDecl::lcsh="Library of Congress Subject Headings"
+encodingDesc::classDecl::lc="Library of Congress Classification"
+profileDesc::langUsage="LatinAncient Greek"
+profileDesc::langUsage::ident="la"
+profileDesc::langUsage::ident="grc"
+profileDesc::textClass="Dialogues, Latin (Medieval and modern)
+Folly -- Early works to 1800
+PA8501"
+profileDesc::textClass::scheme="#lcsh"
+profileDesc::textClass::scheme="#lc"
+revisionDesc::change_1="[ed] added text of "De utilitate colloquiorum ad lectorem""
+revisionDesc::change_1::when="2004-03-01"
+revisionDesc::change_1::who="#GE"
+revisionDesc::change_2="[ed] expanded TEI header to include more information, e.g. LC subject headings and LC classification"
+revisionDesc::change_2::when="2003-10-14"
+revisionDesc::change_2::who="#JN"
+revisionDesc::change_3="[markup]: began tei-compliant markup"
+revisionDesc::change_3::when="2002-09-01"
+revisionDesc::change_3::who="#JN"]

@@ -1,0 +1,60 @@
+<!-- from TEI by example http://teibyexample.org/examples/TBED03v00.htm -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <div>
+        <head>No. 2, September 2006</head>
+        <p>
+            <figure>
+                <graphic url="shrews" rend="thumb"/>
+                <p>
+                    <hi rend="bold">‘A New yeares guift for shrews’</hi>
+                </p>
+            </figure>
+        </p>
+        <p>
+            <hi>A New yeares guift for shrews</hi> is a diminutive sheet engraved c.1630 and signed by the relatively unknown Thomas Cecill, who seems to have been active between 1625 and 1640. It bears the imprint of the even less known Edward Lee, whose only other issue is a large equestrian portrait of Charles I.
+        </p>
+        <p>In a series of unified scenes, it depicts the traditional nagging wife eventually beaten by her husband, and ultimately chased off by the devil. It is accompanied by the following rhyme of a traditional type, reminiscent of the ditty about
+            <hi>Solomon Grundy</hi>, who was
+            <hi>Born on Monday</hi>, and then on successive days christened, married, taken fatally ill and
+            <hi>Buried on Sunday</hi>:
+        </p>
+        <q>
+            <lg rend="italics">
+                <l>Who marieth a wife uppon a Moneday,</l>
+                <l>If she will not be good uppon a Tewesday, </l>
+                <l>Lett him go to the wood uppon a Wensday, </l>
+                <l>And cutt him a cudgell uppon the Thursday, </l>
+                <l>And pay her soundly uppon a Fryday; </l>
+                <l>And
+                    <note>
+                        <hi>And</hi>: if
+                    </note> she mend not, the Divil take her a Saterday
+                </l>
+                <l>Then may he eate his meate in peace on the Sonday.</l>
+            </lg>
+        </q>
+        <p> In the final scene the husband is shown happily enjoying a jug of ale at an ale-bench outside ‘The Swan’ - to judge from the inn-sign. Another interesting detail of the contemporary street-scene is the latticed box attached to the tavern wall: at
+            <hi>lattice</hi>, the
+            <hi>Oxford English Dictionary</hi> explains:
+            <hi>A window of lattice-work (usually painted red), or a pattern on the shutter or wall imitating this, formerly a common mark of an alehouse or inn.</hi> The
+            <hi>Dictionary</hi> illustrates this usage with a quotation from Richard Harvey's
+            <hi>Plaine Percevall</hi> (1590), and one not inappropriate to our print:
+            <hi>As they which determine upon an Ale bench whether the passenger that passeth by the lettise be a Saint or a Divell</hi>.
+        </p>
+        <p>It was clearly popular, for it appears in Peter Stent’s advertisements of 1654 and 1662, and is still listed in his successor John Overton’s catalogue of 1673,
+            <note>Alexander Globe,
+                <title level="m">Peter Stent, London Printseller, c.</title> 1642-65 (Vancouver, 1985), p. 123 (no.*448).
+            </note> yet only the unique impression in the British Museum's Department of Prints & Drawings survives - testimony to the great rarity of such popular material.
+        </p>
+        <p>David Kunzle was the first to point out the likely dependence of
+            <hi>A New yeares guift</hi> on a contemporary German sheet,
+            <hi>Ein köstlich gutes bewertes Recept vor die Männer so böse Weiber haben</hi> [A precious and valuable prescription for men who have such evil wives], though in the German sheet the process of correction takes nine days; he drives into the wood on Monday, cuts sticks on Tuesday, beats her on Wednesday, and so on.
+            <note>D. Kunzle,
+                <title level="m">The Early Comic Strip, c. 1450-1825</title> (Berkeley and Los Angeles, 1973), pp. 230-1 (fig. 8-9).
+            </note> The English shrew is shown fleeing before a sturdy devil, his pitchfork raised, as he pursues her – into hell, presumably.
+        </p>
+        <p>
+            <hi rend="bold">British Museum 1850,1109.10. Dimensions of original: 189 mm x 206 mm.</hi>
+        </p>
+    </div>
+</TEI>

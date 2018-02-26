@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<corpus>
+    <document>
+        <attributes key="fileDesc">
+            <attribute key="titleStmt">
+                <part tei-tag="title">Review: an electronic transcription</part>
+            </attribute>
+            <attribute key="publicationStmt">
+                <div tei-tag="p">Published as an example for the Introduction module of TBE.</div>
+            </attribute>
+            <attribute key="sourceDesc">
+                <div tei-tag="p">No source: born digital.</div>
+            </attribute>
+        </attributes>
+        <div tei-tag="text">
+            <div tei-tag="body">
+                <div tei-tag="head">Review</div>
+                <div tei-tag="p">
+                    <part tei-tag="title">
+                        <attributes>
+                            <attribute key="note">
+                                by
+                                <part tei-tag="name">Goethe</part>
+                            </attribute>
+                        </attributes>
+                        Die Leiden des jungen Werther
+                    </part>
+                    <attributes>
+                        <attribute key="note">
+                            by
+                            <part tei-tag="name">Goethe</part>
+                        </attribute>
+                    </attributes>
+                    is an
+                    <part tei-tag="emph">exceptionally</part>
+                    good example of a book full of
+                    <part tei-tag="term">Weltschmerz</part>
+                    .
+                </div>
+            </div>
+        </div>
+    </document>
+</corpus>
