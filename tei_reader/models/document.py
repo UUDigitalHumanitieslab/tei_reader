@@ -2,4 +2,6 @@
 from .element import Element
 
 class Document(Element):
-    pass
+    def __init__(self, node, corpus):
+        super().__init__(node)
+        self.corpus = corpus

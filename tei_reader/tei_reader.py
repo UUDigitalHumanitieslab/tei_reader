@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
+import re
+from os import path
+
 import lxml.etree as ET
 import lxml.objectify as objectify
-import re
 
 from bs4 import BeautifulSoup
 from .models import Corpora
@@ -9,7 +11,7 @@ from .models import Corpora
 class TeiReader:
     __xmlns = re.compile(r' *xmlns="[^"]*" *')
     __invalid_ampersand = re.compile(r'&(?=[ <])')
-    __xslt = ET.parse("transform/tei-transform.xsl")
+    __xslt = ET.parse(path.join(path.dirname(__file__), "transform", "tei-transform.xsl"))
     __transform = ET.XSLT(__xslt)
 
     def __do_transform(self, content):

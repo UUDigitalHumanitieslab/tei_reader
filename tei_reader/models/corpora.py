@@ -12,7 +12,7 @@ class Corpora(Element):
     def documents(self):
         for item in self.node:
             if item.tag == 'document':
-                yield Document(item)
+                yield Document(item, self)
             elif item.tag == 'corpora':
                 for document in Corpora(item).documents:
                     yield document
