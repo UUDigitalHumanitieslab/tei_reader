@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/UUDigitalHumanitieslab/tei_reader.svg?branch=master)](https://travis-ci.org/UUDigitalHumanitieslab/tei_reader)
+
 # Python 3 Library for Reading the Text Content and Metadata of TEI P5 (Lite) Files
 
 The library focuses on extracting the main text content from a file and provide the available metadata about the text.
@@ -5,7 +7,7 @@ The library focuses on extracting the main text content from a file and provide 
 # TL;DR
 
 ```
-pip install tei_reader
+pip install tei-reader
 ```
 
 ```python
