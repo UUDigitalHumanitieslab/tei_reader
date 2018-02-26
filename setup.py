@@ -8,6 +8,7 @@ with open('LICENSE') as f:
 
 setup(
     name='tei_reader',
+    python_requires='>=3.6, <4',
     version='0.0.2',
     description='TEI Reader',
     long_description=readme,
