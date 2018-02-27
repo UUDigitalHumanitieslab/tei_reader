@@ -12,6 +12,9 @@ class Element:
 
     @property
     def attributes(self):
+        if 'id' in self.node.attrib:
+            yield PlaceholderAttribute('id', self.node.attrib['id'])
+
         if 'tei-tag' in self.node.attrib:
             yield PlaceholderAttribute('tei-tag', self.node.attrib['tei-tag'])
 

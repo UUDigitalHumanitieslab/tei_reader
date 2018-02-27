@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='tei_reader',
     python_requires='>=3.6, <4',
-    version='0.0.6',
+    version='0.0.7',
     description='TEI Reader',
     author='Sheean Spoel (Digital Humanities Lab, Utrecht University)',
     author_email='s.j.j.spoel@uu.nl',
