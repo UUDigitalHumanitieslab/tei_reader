@@ -3,6 +3,7 @@
 class PlaceholderElement:
     def __init__(self, tag, text=None):
         self.tag = tag
+        self.parts = []
         if text != None:
             self.text = text
 

@@ -8,7 +8,6 @@ class PlaceholderDivision(PlaceholderElement):
         
     def __init__(self):
         super().__init__('div')
-        self.parts = []
 
     @property
     def text(self):
