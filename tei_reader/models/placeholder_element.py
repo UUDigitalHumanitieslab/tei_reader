@@ -9,7 +9,7 @@ class PlaceholderElement:
 
     @property
     def attributes(self):
-        return {}
+        return []
 
     @property
     def divisions(self):
@@ -28,4 +28,4 @@ class PlaceholderElement:
         element.
         """
 
-        return f'{inject(self)}{self.text}'
+        return inject(self, self.text)

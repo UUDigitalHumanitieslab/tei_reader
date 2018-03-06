@@ -26,7 +26,7 @@ class Element:
     @property
     def text(self):
         """Get the entire text content as str"""
-        return self.tostring(lambda element: '')
+        return self.tostring(lambda element, text: text)
 
     @property
     def divisions(self):
@@ -117,4 +117,4 @@ class Element:
         element.
         """
 
-        return inject(self) + '\n'.join(f'{division.tostring(inject)}' for division in self.divisions)
+        return inject(self, '\n'.join(f'{division.tostring(inject)}' for division in self.divisions))

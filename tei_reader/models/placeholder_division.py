@@ -17,3 +17,11 @@ class PlaceholderDivision(PlaceholderElement):
     @property
     def xml(self):
         return ''.join(part.xml for part in self.parts)
+
+    def tostring(self, inject):
+        """
+        Convert an element to a single string and allow the passed inject method to place content before any
+        element.
+        """
+        injected_parts = ''.join(part.tostring(inject) for part in self.parts)
+        return inject(self, injected_parts)

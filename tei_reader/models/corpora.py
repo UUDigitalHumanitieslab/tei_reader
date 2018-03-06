@@ -19,4 +19,4 @@ class Corpora(Element):
 
     def tostring(self, inject):
         """Get the entire text content as str"""
-        return inject(self) + '\n'.join(document.tostring(inject) for document in self.documents)
+        return inject(self, '\n'.join(document.tostring(inject) for document in self.documents))

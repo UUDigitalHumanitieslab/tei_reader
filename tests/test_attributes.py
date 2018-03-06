@@ -19,14 +19,14 @@ class TestAttributes(unittest.TestCase):
                     [line.strip() for line in transformed.splitlines(keepends=False)]))
                 self.assertEqual(len([diff for diff in diffs if diff[0:2] != '  ']), 0, f"{tei} not transformed as expected:\n{linesep.join(diffs)}")
         
-    def inject_attributes(self, element):
+    def inject_attributes(self, element, text):
         attributes = list(element.attributes)
         if not attributes:
-            return ''
+            return text
 
         pairs = '\n'.join(f'{attribute.key}="{attribute.text.strip()}"' for attribute in attributes)
 
-        return f'[{pairs}]'
+        return f'[{pairs}]{text}'
 
 if __name__ == '__main__':
     unittest.main()
