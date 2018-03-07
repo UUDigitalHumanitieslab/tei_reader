@@ -14,7 +14,7 @@ class TestText(unittest.TestCase):
         for (tei, expected) in zip(get_files('tei.xml'), get_files('out.txt')):
             corpora = reader.read_file(tei)
             transformed = corpora.text
-            with open(expected) as f:
+            with open(expected, encoding='utf-8') as f:
                 diffs = list(diff for diff in differ.compare(
                     [line.strip() for line in f.readlines()],
                     [line.strip() for line in transformed.splitlines(keepends=False)]))

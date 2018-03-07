@@ -13,7 +13,7 @@ class TestAttributes(unittest.TestCase):
         for (tei, expected) in zip(get_files('tei.xml'), get_files('out-attrs.txt')):
             corpora = reader.read_file(tei)
             transformed = corpora.tostring(self.inject_attributes)
-            with open(expected) as f:
+            with open(expected, encoding='utf-8') as f:
                 diffs = list(diff for diff in differ.compare(
                     [line.strip() for line in f.readlines()],
                     [line.strip() for line in transformed.splitlines(keepends=False)]))

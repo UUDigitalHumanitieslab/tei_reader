@@ -11,7 +11,7 @@ class TestAttributes(unittest.TestCase):
         Check that the test output matches the DTD.
         """
 
-        with open(path.join(path.dirname(__file__), '..', 'tei_reader', 'transform', 'tei-content.dtd')) as f:
+        with open(path.join(path.dirname(__file__), '..', 'tei_reader', 'transform', 'tei-content.dtd'), encoding='utf-8') as f:
             dtd = ET.DTD(f)
             
         for transformed in (ET.parse(xml) for xml in get_files('out.xml')):

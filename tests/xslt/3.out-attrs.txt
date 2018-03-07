@@ -1,0 +1,14 @@
+[fileDesc::titleStmt="Quotes en andere talen
+Sheean Spoel"
+fileDesc::editionStmt="2018-03-05T13:38:37.229008088"][tei-tag="text"][tei-tag="body"][tei-tag="p"
+note="Misschien question gebruiken?"
+note::rend="italic"
+note::xml:lang="en"]Hier staat wat [id="foo"
+tei-tag="hi"
+rend="italic"
+xml:lang="de"]wunderschöne tekst om het importeren van TEI-geformatteerde tekst te evalueren. Zij zei hierover tegen hem [tei-tag="q"
+note="Misschien question gebruiken?"
+note::rend="italic"
+note::xml:lang="en"]wat is de [tei-tag="hi"
+rend="italic"
+xml:lang="fr"]raison d’être van deze tekst? , niets dan ontzag volgde op deze vraag .

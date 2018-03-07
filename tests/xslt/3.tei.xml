@@ -1,0 +1,37 @@
+<TEI 
+    xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quotes en andere talen</title>
+                <author>Sheean Spoel</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-03-05T13:38:37.229008088</date>
+                </edition>
+            </editionStmt>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <name>Sheean Spoel</name>
+                    <date>2018-03-05T13:42:45.778199962</date>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Hier staat wat
+                <hi rend="italic" xml:lang="de" xml:id="foo">wunderschöne</hi> tekst om het importeren van TEI-geformatteerde tekst te evalueren. Zij zei hierover tegen hem
+                <q>wat is de
+                    <hi rend="italic" xml:lang="fr">raison d’être</hi> van deze tekst?
+                </q>, niets dan ontzag volgde op deze vraag
+                <note>Misschien
+                    <hi rend="italic" xml:lang="en">question</hi> <w lemma="gebruiken" pos="WW(inf,vrij,zonder)">gebruiken</w>?
+                </note>.
+            </p>
+        </body>
+    </text>
+</TEI>

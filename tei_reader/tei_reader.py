@@ -32,7 +32,7 @@ class TeiReader:
         return bytes(bytearray(''.join(self.__clean_line(line) for line in lines), encoding='utf-8'))
 
     def __clean_file(self, filename):
-        with open(filename) as file:
+        with open(filename, encoding='utf-8') as file:
             return self.__clean_lines(file.readlines())
 
     def read_file(self, file_name):

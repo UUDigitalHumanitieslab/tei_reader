@@ -13,7 +13,7 @@ class TestTransform(unittest.TestCase):
         for (tei, expected) in zip(get_files('tei.xml'), get_files('out.xml')):
             corpora = reader.read_file(tei)
             self.check_corpora(corpora, expected, f'{tei} (as file)')            
-            with open(tei) as f:
+            with open(tei, encoding='utf-8') as f:
                 corpora = reader.read_string(f.read())
                 self.check_corpora(corpora, expected, f'{tei} (as string)')
 
@@ -21,7 +21,7 @@ class TestTransform(unittest.TestCase):
     def check_corpora(self, corpora, expected, id):
         differ = Differ()
         transformed = minidom.parseString(corpora.xml).toprettyxml(indent="    ").replace("&quot;", '"')
-        with open(expected) as f:
+        with open(expected, encoding='utf-8') as f:
             diffs = list(diff for diff in differ.compare(
                 [line.strip() for line in f.readlines()],
                 [line.strip() for line in transformed.splitlines(keepends=False) if line.strip() != '']))
