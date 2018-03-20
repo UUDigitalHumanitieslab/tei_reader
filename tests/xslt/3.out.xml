@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<corpus>
+    <document>
+        <attributes key="fileDesc">
+            <attribute key="titleStmt">
+                <part tei-tag="title">Quotes en andere talen</part>
+                <div tei-tag="author">Sheean Spoel</div>
+            </attribute>
+            <attribute key="editionStmt">
+                <div tei-tag="edition">
+                    <part tei-tag="date">2018-03-05T13:38:37.229008088</part>
+                </div>
+            </attribute>
+        </attributes>
+        <attributes key="revisionDesc"/>
+        <div tei-tag="text">
+            <div tei-tag="body">
+                <div tei-tag="p">
+Hier staat wat
+                    <part id="foo" tei-tag="hi">
+                        <attributes>
+                            <attribute key="rend">italic</attribute>
+                            <attribute key="xml:lang">de</attribute>
+                        </attributes>
+wunderschöne
+                    </part>
+tekst om het importeren van TEI-geformatteerde tekst te evalueren. Zij zei hierover tegen hem
+                    <part tei-tag="q">
+                        <attributes>
+                            <attribute key="note">
+Misschien
+                                <part tei-tag="hi">
+                                    <attributes>
+                                        <attribute key="rend">italic</attribute>
+                                        <attribute key="xml:lang">en</attribute>
+                                    </attributes>
+question
+                                </part>
+gebruiken?
+                            </attribute>
+                        </attributes>
+wat is de
+                        <part tei-tag="hi">
+                            <attributes>
+                                <attribute key="rend">italic</attribute>
+                                <attribute key="xml:lang">fr</attribute>
+                            </attributes>
+raison d’être
+                        </part>
+van deze tekst?
+                    </part>
+, niets dan ontzag volgde op deze vraag
+                    <attributes>
+                        <attribute key="note">
+Misschien
+                            <part tei-tag="hi">
+                                <attributes>
+                                    <attribute key="rend">italic</attribute>
+                                    <attribute key="xml:lang">en</attribute>
+                                </attributes>
+question
+                            </part>
+gebruiken?
+                        </attribute>
+                    </attributes>
+.
+                </div>
+            </div>
+        </div>
+    </document>
+</corpus>

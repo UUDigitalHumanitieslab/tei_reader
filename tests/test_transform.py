@@ -9,8 +9,10 @@ from pprint import pprint
 class TestTransform(unittest.TestCase):
     def test_files(self):
         reader = tei_reader.TeiReader()
-
-        for (tei, expected) in zip(get_files('tei.xml'), get_files('out.xml')):
+        tei_files = get_files('tei.xml')
+        expected_files = get_files('out.xml')
+        self.assertEqual(len(tei_files), len(expected_files))
+        for (tei, expected) in zip(tei_files, expected_files):
             corpora = reader.read_file(tei)
             self.check_corpora(corpora, expected, f'{tei} (as file)')            
             with open(tei, encoding='utf-8') as f:

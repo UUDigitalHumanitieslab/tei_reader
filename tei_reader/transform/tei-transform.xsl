@@ -4,7 +4,7 @@
     <xsl:output method="xml" indent="yes"/>
     <xsl:template match="/">
         <corpus>
-            <xsl:for-each select="TEI">
+            <xsl:for-each select="TEI|TEI.2">
                 <document>
                     <xsl:call-template name="id" />
                     <xsl:apply-templates select="teiHeader" />

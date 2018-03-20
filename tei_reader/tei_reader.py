@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from .models import Corpora
 
 class TeiReader:
-    __xmlns = re.compile(r' *xmlns="[^"]*" *')
+    __xmlns = re.compile(r' *xmlns(|\:\w+)="[^"]*"')
     __invalid_ampersand = re.compile(r'&(?=[ <])')
     __xslt = ET.parse(path.join(path.dirname(__file__), "transform", "tei-transform.xsl"))
     __transform = ET.XSLT(__xslt)
