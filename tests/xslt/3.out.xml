@@ -36,7 +36,14 @@ Misschien
                                     </attributes>
 question
                                 </part>
-gebruiken?
+                                <part tei-tag="w">
+                                    <attributes>
+                                        <attribute key="lemma">gebruiken</attribute>
+                                        <attribute key="pos">WW(inf,vrij,zonder)</attribute>
+                                    </attributes>
+                                    gebruiken
+                                </part>
+                                ?
                             </attribute>
                         </attributes>
 wat is de
@@ -60,7 +67,14 @@ Misschien
                                 </attributes>
 question
                             </part>
-gebruiken?
+                            <part tei-tag="w">
+                                <attributes>
+                                    <attribute key="lemma">gebruiken</attribute>
+                                    <attribute key="pos">WW(inf,vrij,zonder)</attribute>
+                                </attributes>
+                                gebruiken
+                            </part>
+                            ?
                         </attribute>
                     </attributes>
 .

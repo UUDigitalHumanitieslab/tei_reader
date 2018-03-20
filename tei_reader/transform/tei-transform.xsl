@@ -87,7 +87,7 @@
             </attributes>
         </attribute>
     </xsl:template>
-    <xsl:template match="date|emph|hi|l|language|lg|name|q|resp|term|title">
+    <xsl:template match="date|emph|hi|l|language|lg|name|q|resp|term|title|w">
         <part tei-tag="{name(.)}">
             <xsl:call-template name="id" />
             <xsl:call-template name="attributes" />

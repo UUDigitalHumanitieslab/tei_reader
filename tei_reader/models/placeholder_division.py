@@ -12,7 +12,7 @@ class PlaceholderDivision(PlaceholderElement):
     @property
     def text(self):
         """Get the entire text content as str"""
-        return ''.join(part.text for part in self.parts)
+        return self.tostring(lambda element, text: text)
         
     @property
     def xml(self):
@@ -23,5 +23,13 @@ class PlaceholderDivision(PlaceholderElement):
         Convert an element to a single string and allow the passed inject method to place content before any
         element.
         """
-        injected_parts = ''.join(part.tostring(inject) for part in self.parts)
+        injected_parts = ''
+        for part in self.parts:
+            injected = part.tostring(inject)
+            tei_tag = next((attribute for attribute in part.attributes if attribute.key == "tei-tag"), None)
+            if tei_tag and tei_tag.text == "w" and injected_parts and not injected_parts[-1].isspace():
+                injected_parts += ' ' + injected
+            else:
+                injected_parts += injected
+
         return inject(self, injected_parts)

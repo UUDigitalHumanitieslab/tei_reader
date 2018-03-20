@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI 
+    xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:tei="http://www.tei-c.org/ns/1.0" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <teiHeader>
+        <sourceDesc>
+            <listBibl id="inlMetadata">
+                <bibl>
+                    <author>Gavin Douglas</author>
+                    <interpGrp type="title">
+                        <interp value="Eneados-Eneados - part II"/>
+                    </interpGrp>
+                </bibl>
+            </listBibl>
+        </sourceDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" />
+            <lb n="" />
+            <w type="WORD">THE</w>
+            <w type="WORD">PROLOUG</w>
+            <w type="WORD">OF</w>
+            <w type="WORD">THE</w>
+            <w type="WORD">SAXT</w>
+            <w type="WORD">BUKE</w>
+            <pb n="1" />
+            <lb n="1" />
+            <w type="WORD">Pluto</w>
+            <w type="PUNC">,</w>
+            <w type="WORD">thou</w>
+            <w type="WORD">patron</w>
+            <w type="WORD">of</w>
+            <w type="WORD">the</w>
+            <w type="WORD">deip</w>
+            <w type="WORD">Achiron</w>
+            <w type="PUNC">,</w>
+            <lb n="2" />
+            <w type="WORD">Fader</w>
+            <w type="WORD">of</w>
+            <w type="WORD">tormentis</w>
+            <w type="WORD">in</w>
+            <w type="WORD">thyne</w>
+            <w type="WORD">infernal</w>
+            <w type="WORD">see</w>
+            <w type="PUNC">,</w>
+            <lb n="3" />
+            <w type="WORD">Amyd</w>
+            <w type="WORD">the</w>
+            <w type="WORD">fludis</w>
+            <w type="PUNC">,</w>
+            <w type="WORD">Stix</w>
+            <w type="WORD">and</w>
+            <w type="WORD">Flagitoin</w>
+            <w type="PUNC">,</w>
+            <lb n="4" />
+            <w type="WORD">Lethie</w>
+            <w type="PUNC">,</w>
+            <w type="WORD">Cochite</w>
+            <w type="PUNC">,</w>
+            <w type="WORD">the</w>
+            <w type="WORD">watyris</w>
+            <w type="WORD">of</w>
+            <w type="WORD">oblivie</w>
+            <w type="PUNC">,</w>
+            <lb n="5" />
+            <w type="WORD">With</w>
+            <w type="WORD">dolorus</w>
+            <w type="WORD">quhirling</w>
+            <w type="WORD">of</w>
+            <w type="WORD">furyus</w>
+            <w type="WORD">sustyris</w>
+            <w type="WORD">thre</w>
+            <w type="PUNC">,</w>
+            <lb n="6" />
+            <w type="WORD">Thyne</w>
+            <w type="WORD">now</w>
+            <w type="WORD">salbe</w>
+            <w type="WORD">my</w>
+            <w type="WORD">muse</w>
+            <w type="WORD">and</w>
+            <w type="WORD">drery</w>
+            <w type="WORD">sang</w>
+            <w type="PUNC">:</w>
+            <lb n="7" />
+            <w type="WORD">To</w>
+            <w type="WORD">follow</w>
+            <w type="WORD">Virgil</w>
+            <w type="WORD">in</w>
+            <w type="WORD">this</w>
+            <w type="WORD">dyrk</w>
+            <w type="WORD">poyse</w>
+            <lb n="8" />
+            <w type="WORD">Convoy</w>
+            <w type="WORD">me</w>
+            <w type="PUNC">,</w>
+            <w type="WORD">Sibil</w>
+            <w type="PUNC">,</w>
+            <w type="WORD">that</w>
+            <w type="WORD">I</w>
+            <w type="WORD">ga</w>
+            <w type="WORD">nocht</w>
+            <w type="WORD">wrang</w>
+            <w type="PUNC">.</w>
+            <lb n="9" />
+            <w type="WORD">Quhat</w>
+            <w type="WORD">wenys</w>
+            <w type="WORD">fulys</w>
+            <w type="WORD">this</w>
+            <w type="WORD">saxt</w>
+            <w type="WORD">buke</w>
+            <w type="WORD">be</w>
+            <w type="WORD">bot</w>
+            <w type="WORD">iapis</w>
+            <w type="PUNC">,</w>
+        </body>
+    </text>
+</TEI>
