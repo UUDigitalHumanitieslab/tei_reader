@@ -143,7 +143,7 @@
     <!-- <attribute> for each subelement -->
     <xsl:template name="attributes-from-elements">
         <!-- variables not supported, update it manually
-             <xsl:variable name="textNodes" select="bibl|p|text"/> -->
+             <xsl:variable name="textNodes" select="p|text|date"/> -->
         <xsl:call-template name="id" />
         <xsl:if test="*[not(self::p)][not(self::text)][not(self::date)] | @*[not(name() = 'xml:id')]">
             <attributes>
