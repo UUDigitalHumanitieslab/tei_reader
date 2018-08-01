@@ -3,54 +3,70 @@
     <document>
         <attributes key="fileDesc">
             <attribute key="titleStmt">
-                <part tei-tag="title">Colloquia familiaria</part>
-                <div tei-tag="author">Desiderius Erasmus</div>
-                <div tei-tag="respStmt">
-                    <part tei-tag="resp">Encoded by</part>
-                    <part id="JN" tei-tag="name">Jennifer K. Nelson</part>
-                    <part id="GE" tei-tag="name">Gretche Ermer</part>
-                </div>
-                <div tei-tag="principal">A. Ross Scaife</div>
-                <div tei-tag="sponsor">Cultural Heritage Language Technologies</div>
-                <div tei-tag="funder">NSF-EU</div>
+                <attributes>
+                    <attribute key="title">Colloquia familiaria</attribute>
+                    <attribute key="author">Desiderius Erasmus</attribute>
+                    <attribute key="respStmt">
+                        <attributes>
+                            <attribute key="resp">Encoded by</attribute>
+                            <attribute id="JN" key="name">Jennifer K. Nelson</attribute>
+                            <attribute id="GE" key="name">Gretche Ermer</attribute>
+                        </attributes>
+                    </attribute>
+                    <attribute key="principal">A. Ross Scaife</attribute>
+                    <attribute key="sponsor">Cultural Heritage Language Technologies</attribute>
+                    <attribute key="funder">NSF-EU</attribute>
+                </attributes>
             </attribute>
             <attribute key="publicationStmt">
-                <div tei-tag="pubPlace">Lexington, KY</div>
-                <div tei-tag="publisher">Stoa Consortium</div>
-                <div tei-tag="address">
-                    <div tei-tag="addrLine">Department of Modern and Classical Languages, Literatures and Cultures</div>
-                    <div tei-tag="addrLine">1055 Patterson Office Tower</div>
-                    <div tei-tag="addrLine">University of Kentucky</div>
-                    <div tei-tag="addrLine">Lexington, KY 40506-0027</div>
-                    <div tei-tag="addrLine">url:http://www.stoa.org</div>
-                </div>
+                <attributes>
+                    <attribute key="pubPlace">Lexington, KY</attribute>
+                    <attribute key="publisher">Stoa Consortium</attribute>
+                    <attribute key="address">
+                        <attributes>
+                            <attribute key="addrLine">Department of Modern and Classical Languages, Literatures and Cultures</attribute>
+                            <attribute key="addrLine">1055 Patterson Office Tower</attribute>
+                            <attribute key="addrLine">University of Kentucky</attribute>
+                            <attribute key="addrLine">Lexington, KY 40506-0027</attribute>
+                            <attribute key="addrLine">url:http://www.stoa.org</attribute>
+                        </attributes>
+                    </attribute>
+                </attributes>
                 <part tei-tag="date">2002-09-05</part>
             </attribute>
             <attribute key="sourceDesc">
-                <div tei-tag="biblStruct">
-                    <div tei-tag="monogr">
-                        <div tei-tag="author">Erasmus, Desiderius, d. 1536</div>
-                        <part tei-tag="title">
-                            <attributes>
-                                <attribute key="type">main</attribute>
-                            </attributes>
-                            Desiderii Erasmi Roterodami colloquia familiaria
-                        </part>
-                        <part tei-tag="title">
-                            <attributes>
-                                <attribute key="type">subordinate</attribute>
-                            </attributes>
-                            ad optimarum editionum fidem diligenter emendata, cum succincta difficiliorum explanatione
-                        </part>
-                        <div tei-tag="edition">Ed. stereotypa</div>
-                        <div tei-tag="imprint">
-                            <div tei-tag="pubPlace">Lipsiae</div>
-                            <div tei-tag="publisher">sumptibus Ottonis Holtze</div>
-                            <part tei-tag="date">1867-1872</part>
-                        </div>
-                        <div tei-tag="extent">771 p. (2 vols) ; 15 cm.</div>
-                    </div>
-                </div>
+                <attributes>
+                    <attribute key="biblStruct">
+                        <attributes>
+                            <attribute key="monogr">
+                                <attributes>
+                                    <attribute key="author">Erasmus, Desiderius, d. 1536</attribute>
+                                    <attribute key="title">
+                                        <attributes>
+                                            <attribute key="type">main</attribute>
+                                        </attributes>
+                                        Desiderii Erasmi Roterodami colloquia familiaria
+                                    </attribute>
+                                    <attribute key="title">
+                                        <attributes>
+                                            <attribute key="type">subordinate</attribute>
+                                        </attributes>
+                                        ad optimarum editionum fidem diligenter emendata, cum succincta difficiliorum explanatione
+                                    </attribute>
+                                    <attribute key="edition">Ed. stereotypa</attribute>
+                                    <attribute key="imprint">
+                                        <attributes>
+                                            <attribute key="pubPlace">Lipsiae</attribute>
+                                            <attribute key="publisher">sumptibus Ottonis Holtze</attribute>
+                                        </attributes>
+                                        <part tei-tag="date">1867-1872</part>
+                                    </attribute>
+                                    <attribute key="extent">771 p. (2 vols) ; 15 cm.</attribute>
+                                </attributes>
+                            </attribute>
+                        </attributes>
+                    </attribute>
+                </attributes>
             </attribute>
         </attributes>
         <attributes key="encodingDesc">
@@ -58,74 +74,90 @@
                 <div tei-tag="p">Editorial notes in the Holtze edition have not been reproduced</div>
             </attribute>
             <attribute key="editorialDecl">
-                <attributes key="normalization">
-                    <attribute key="method">silent</attribute>
-                    <attribute>
+                <attributes>
+                    <attribute key="normalization">
+                        <attributes>
+                            <attribute key="method">silent</attribute>
+                        </attributes>
                         <div tei-tag="p">Original punctuation conventions in the Holtze edition have been retained as much as possible</div>
                     </attribute>
-                </attributes>
-                <attributes key="hyphenation">                    
-                    <attribute key="eol">none</attribute>
-                    <attribute>
+                    <attribute key="hyphenation">                    
+                        <attributes>
+                            <attribute key="eol">none</attribute>
+                        </attributes>
                         <div tei-tag="p">Hyphenated words that appear at the end of the line in the Holtze edition have been reformed</div>
                     </attribute>
-                </attributes>
-                <attributes key="interpretation">
-                    <attribute>
+                    <attribute key="interpretation">
                         <div tei-tag="p">Italics are recorded without interpretation</div>
                     </attribute>
                 </attributes>
             </attribute>
             <attribute key="refsDecl">
-                <attributes key="refState">
-                    <attribute key="unit">colloquium</attribute>
-                </attributes>
-                <attributes key="refState">
-                    <attribute key="unit">topic</attribute>
+                <attributes>
+                    <attribute key="refState">
+                        <attributes>
+                            <attribute key="unit">colloquium</attribute>
+                        </attributes>
+                    </attribute>
+                    <attribute key="refState">
+                        <attributes>
+                            <attribute key="unit">topic</attribute>
+                        </attributes>
+                    </attribute>
                 </attributes>
             </attribute>
             <attribute key="classDecl">
                 <attributes>
-                    <attribute key="lcsh">
-                        <div tei-tag="bibl">Library of Congress Subject Headings</div>
+                    <attribute id="lcsh" key="taxonomy">
+                        <attributes>
+                            <attribute key="bibl">Library of Congress Subject Headings</attribute>
+                        </attributes>
                     </attribute>
-                    <attribute key="lc">
-                        <div tei-tag="bibl">Library of Congress Classification</div>
+                    <attribute id="lc" key="taxonomy">
+                        <attributes>
+                            <attribute key="bibl">Library of Congress Classification</attribute>
+                        </attributes>
                     </attribute>
                 </attributes>
             </attribute>
         </attributes>
         <attributes key="profileDesc">
             <attribute key="langUsage">
-                <part tei-tag="language">
-                    <attributes>
-                        <attribute key="ident">la</attribute>
-                    </attributes>
-                    Latin
-                </part>
-                <part tei-tag="language">
-                    <attributes>
-                        <attribute key="ident">grc</attribute>
-                    </attributes>
-                    Ancient Greek
-                </part>
+                <attributes>
+                    <attribute key="language">
+                        <attributes>
+                            <attribute key="ident">la</attribute>
+                        </attributes>
+                        Latin
+                    </attribute>
+                    <attribute key="language">
+                        <attributes>
+                            <attribute key="ident">grc</attribute>
+                        </attributes>
+                        Ancient Greek
+                    </attribute>
+                </attributes>
             </attribute>
             <attribute key="textClass">
-                <div tei-tag="keywords">
-                    <attributes>
-                        <attribute key="scheme">#lcsh</attribute>
-                    </attributes>
-                    <div tei-tag="list">
-                        <div tei-tag="item">Dialogues, Latin (Medieval and modern)</div>
-                        <div tei-tag="item">Folly -- Early works to 1800</div>
-                    </div>
-                </div>
-                <div tei-tag="classCode">
-                    <attributes>
-                        <attribute key="scheme">#lc</attribute>
-                    </attributes>
-                    PA8501
-                </div>
+                <attributes>
+                    <attribute key="keywords">
+                        <attributes>
+                            <attribute key="scheme">#lcsh</attribute>
+                            <attribute key="list">
+                                <attributes>
+                                    <attribute key="item">Dialogues, Latin (Medieval and modern)</attribute>
+                                    <attribute key="item">Folly -- Early works to 1800</attribute>
+                                </attributes>
+                            </attribute>
+                        </attributes>
+                    </attribute>
+                    <attribute key="classCode">
+                        <attributes>
+                            <attribute key="scheme">#lc</attribute>
+                        </attributes>
+                        PA8501
+                    </attribute>
+                </attributes>
             </attribute>
         </attributes>
         <attributes key="revisionDesc">

@@ -3,7 +3,9 @@
     <document>
         <attributes key="fileDesc">
             <attribute key="titleStmt">
-                <part tei-tag="title">Review: an electronic transcription</part>
+                <attributes>
+                    <attribute key="title">Review: an electronic transcription</attribute>
+                </attributes>
             </attribute>
             <attribute key="publicationStmt">
                 <div tei-tag="p">Published as an example for the Introduction module of TBE.</div>

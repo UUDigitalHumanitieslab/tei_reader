@@ -100,15 +100,12 @@ class Element:
         if 'key' in attributes.attrib:
             parents = parents + [attributes.attrib['key']]
 
-        for attribute in attributes.iterchildren('attribute'):
-            yield Attribute(attribute, parents)
-            for sub_attributes in attribute.iter('attributes'):
-                if 'key' in attribute.attrib:
-                    sub_parents = parents + [attribute.attrib['key']]
-                else:
-                    sub_parents = parents
-                for sub_attribute in self.__iter_attributes__(sub_attributes, sub_parents):
-                    yield sub_attribute
+        for attribute_element in attributes.iterchildren('attribute'):
+            attribute = Attribute(attribute_element, parents)
+            if attribute.text:
+                yield attribute
+            for sub_attribute in attribute.attributes:
+                yield sub_attribute
 
 
     def tostring(self, inject):

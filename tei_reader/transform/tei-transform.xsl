@@ -16,14 +16,13 @@
     <xsl:template match="teiHeader">
         <xsl:apply-templates />
     </xsl:template>
-    <xsl:template match="encodingDesc|fileDesc|profileDesc">
+    <xsl:template match="encodingDesc|fileDesc|sourceDesc|profileDesc">
         <attributes key="{name(.)}">
-            <xsl:for-each select="*[not(name()='classDecl')]">
+            <xsl:for-each select="*">
                 <attribute key="{name(.)}">
-                    <xsl:apply-templates />
+                    <xsl:call-template name="attributes-from-elements" /> 
                 </attribute>
             </xsl:for-each>
-            <xsl:apply-templates select="classDecl" />
         </attributes>
     </xsl:template>
     <xsl:template match="revisionDesc">
@@ -54,7 +53,7 @@
             <xsl:apply-templates />
         </div>
     </xsl:template>
-    <xsl:template match="addrLine|address|author|bibl|biblStruct|body|classCode|div|edition|extent|funder|head|imprint|item|keywords|list|monogr|p|principal|pubPlace|pubPlace|publisher|publisher|refState|respStmt|sponsor|text">
+    <xsl:template match="addrLine|address|author|bibl|biblStruct|body|classCode|div|edition|extent|funder|head|imprint|item|keywords|list|listBibl|monogr|p|principal|pubPlace|pubPlace|publisher|publisher|refState|respStmt|sponsor|text">
         <div tei-tag="{name(.)}">
             <xsl:call-template name="id" />
             <xsl:call-template name="attributes" />
@@ -140,5 +139,23 @@
                 <xsl:value-of select="." />
             </part>
         </xsl:for-each>
+    </xsl:template>
+    <!-- <attribute> for each subelement -->
+    <xsl:template name="attributes-from-elements">
+        <!-- variables not supported, update it manually
+             <xsl:variable name="textNodes" select="bibl|p|text"/> -->
+        <xsl:call-template name="id" />
+        <xsl:if test="*[not(self::p)][not(self::text)][not(self::date)] | @*[not(name() = 'xml:id')]">
+            <attributes>
+                <xsl:call-template name="attributes-pairs" />
+                <xsl:for-each select="*[not(self::p)][not(self::text)][not(self::date)]">
+                    <attribute key="{name()}">
+                        <xsl:call-template name="attributes-from-elements" />
+                    </attribute>
+                </xsl:for-each>
+            </attributes>
+        </xsl:if>
+        <xsl:value-of select="text()"/>
+        <xsl:apply-templates select="p|text|date" />
     </xsl:template>
 </xsl:stylesheet>
