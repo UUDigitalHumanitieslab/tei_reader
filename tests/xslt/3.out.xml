@@ -3,13 +3,17 @@
     <document>
         <attributes key="fileDesc">
             <attribute key="titleStmt">
-                <part tei-tag="title">Quotes en andere talen</part>
-                <div tei-tag="author">Sheean Spoel</div>
+                <attributes>
+                    <attribute key="title">Quotes en andere talen</attribute>
+                    <attribute key="author">Sheean Spoel</attribute>
+                </attributes>
             </attribute>
             <attribute key="editionStmt">
-                <div tei-tag="edition">
-                    <part tei-tag="date">2018-03-05T13:38:37.229008088</part>
-                </div>
+                <attributes>
+                    <attribute key="edition">
+                        <part tei-tag="date">2018-03-05T13:38:37.229008088</part>
+                    </attribute>
+                </attributes>
             </attribute>
         </attributes>
         <attributes key="revisionDesc"/>

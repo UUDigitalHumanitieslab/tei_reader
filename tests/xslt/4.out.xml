@@ -1,9 +1,28 @@
 <?xml version="1.0" ?>
 <corpus>
     <document>
-        <div tei-tag="bibl">
-            <div tei-tag="author">Gavin Douglas</div>
-        </div>
+        <attributes key="sourceDesc">
+            <attribute key="listBibl">
+                <attributes>
+                    <attribute key="id">inlMetadata</attribute>
+                    <attribute key="bibl">
+                        <attributes>
+                            <attribute key="author">Gavin Douglas</attribute>
+                            <attribute key="interpGrp">
+                                <attributes>
+                                    <attribute key="type">title</attribute>
+                                    <attribute key="interp">
+                                        <attributes>
+                                            <attribute key="value">Eneados-Eneados - part II</attribute>
+                                        </attributes>
+                                    </attribute>
+                                </attributes>
+                            </attribute>
+                        </attributes>
+                    </attribute>
+                </attributes>
+            </attribute>
+        </attributes>
         <div tei-tag="text">
             <div tei-tag="body">
                 <part tei-tag="w">

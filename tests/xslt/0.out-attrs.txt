@@ -1,4 +1,4 @@
-[fileDesc::titleStmt="Review: an electronic transcription"
+[fileDesc::titleStmt::title="Review: an electronic transcription"
 fileDesc::publicationStmt="Published as an example for the Introduction module of TBE."
 fileDesc::sourceDesc="No source: born digital."][tei-tag="text"][tei-tag="body"][tei-tag="head"]Review
 [tei-tag="p"
