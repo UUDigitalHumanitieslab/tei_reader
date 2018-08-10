@@ -27,8 +27,9 @@ class PlaceholderDivision(PlaceholderElement):
         for part in self.parts:
             injected = part.tostring(inject)
             tei_tag = next((attribute for attribute in part.attributes if attribute.key == "tei-tag"), None)
-            if tei_tag and tei_tag.text == "w" and injected_parts and not injected_parts[-1].isspace():
-                injected_parts += ' ' + injected
+            if tei_tag and tei_tag.text == "w" and injected_parts:
+                # make sure words can be tokenized correctly
+                injected_parts += ' ' + injected + ' '
             else:
                 injected_parts += injected
 

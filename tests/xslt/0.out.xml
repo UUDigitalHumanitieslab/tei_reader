@@ -21,7 +21,7 @@
                     <part tei-tag="title">
                         <attributes>
                             <attribute key="note">
-                                by
+                    by
                                 <part tei-tag="name">Goethe</part>
                             </attribute>
                         </attributes>
@@ -29,13 +29,13 @@
                     </part>
                     <attributes>
                         <attribute key="note">
-                            by
+                    by
                             <part tei-tag="name">Goethe</part>
                         </attribute>
                     </attributes>
-                    is an
+                is an
                     <part tei-tag="emph">exceptionally</part>
-                    good example of a book full of
+                good example of a book full of
                     <part tei-tag="term">Weltschmerz</part>
                     .
                 </div>

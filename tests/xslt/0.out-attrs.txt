@@ -3,4 +3,4 @@ fileDesc::publicationStmt="Published as an example for the Introduction module o
 fileDesc::sourceDesc="No source: born digital."][tei-tag="text"][tei-tag="body"][tei-tag="head"]Review
 [tei-tag="p"
 note="by Goethe"][tei-tag="title"
-note="by Goethe"]Die Leiden des jungen Werther is an [tei-tag="emph"]exceptionally good example of a book full of [tei-tag="term"]Weltschmerz.
+note="by Goethe"]Die Leiden des jungen Werther is an [tei-tag="emph"]exceptionally good example of a book full of [tei-tag="term"]Weltschmerz. 
