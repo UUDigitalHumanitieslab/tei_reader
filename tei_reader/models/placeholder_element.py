@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 
+
 class PlaceholderElement:
     def __init__(self, tag, text=None):
         self.tag = tag
         self.parts = []
         if text != None:
             self.text = text
+
+    @property
+    def all_parts(self):
+        return self.parts
 
     @property
     def attributes(self):
@@ -17,7 +22,7 @@ class PlaceholderElement:
         Recursively get all the text divisions flattened and in document order. If an element contains parts or text without tag. Those will be returned in order and wrapped with a TextDivision.
         """
         return []
-        
+
     @property
     def xml(self):
         return self.text
