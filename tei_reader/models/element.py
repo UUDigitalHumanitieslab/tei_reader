@@ -51,15 +51,32 @@ class Element:
             yield placeholder
 
     @property
-    def parts(self):
+    def all_parts(self):
         """
         Recursively get the parts flattened and in document order constituting the entire text e.g. if something has emphasis, a footnote or is marked as foreign. Text without a container element will be returned in order and wrapped with a TextPart.
         """
 
         for item in self.__parts_and_divisions:
             if item.tag == 'part' and item.is_placeholder:
+                # A real part will always return a placeholder containing
+                # its content. Placeholder parts cannot have children.
                 yield item
             else:
+                for part in item.all_parts:
+                    yield part
+
+    @property
+    def parts(self):
+        """
+        Get the parts directly below this element.
+        """
+
+        for item in self.__parts_and_divisions:
+            if item.tag == 'part':
+                yield item
+            else:
+                # Divisions shouldn't be beneath a part, but here's a fallback
+                # for if this does happen
                 for part in item.parts:
                     yield part
 

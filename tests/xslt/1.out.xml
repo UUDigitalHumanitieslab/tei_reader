@@ -81,7 +81,7 @@
                         </attributes>
                         <div tei-tag="p">Original punctuation conventions in the Holtze edition have been retained as much as possible</div>
                     </attribute>
-                    <attribute key="hyphenation">                    
+                    <attribute key="hyphenation">
                         <attributes>
                             <attribute key="eol">none</attribute>
                         </attributes>
@@ -161,7 +161,7 @@
             </attribute>
         </attributes>
         <attributes key="revisionDesc">
-            <attribute key="change_1">                
+            <attribute key="change_1">
                 <attributes>
                     <attribute key="when">2004-03-01</attribute>
                     <attribute key="who">#GE</attribute>
@@ -175,8 +175,8 @@
                 </attributes>
                 [ed] expanded TEI header to include more information, e.g. LC subject headings and LC classification
             </attribute>
-            <attribute key="change_3">                
-                <attributes>            
+            <attribute key="change_3">
+                <attributes>
                     <attribute key="when">2002-09-01</attribute>
                     <attribute key="who">#JN</attribute>
                 </attributes>

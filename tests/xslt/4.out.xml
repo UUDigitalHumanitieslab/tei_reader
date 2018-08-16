@@ -25,515 +25,575 @@
         </attributes>
         <div tei-tag="text">
             <div tei-tag="body">
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-THE
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-PROLOUG
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-OF
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-THE
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-SAXT
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-BUKE
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-Pluto
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">PUNC</attribute>
-                    </attributes>
-,
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-thou
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-patron
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-of
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-the
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-deip
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-Achiron
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">PUNC</attribute>
-                    </attributes>
-,
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-Fader
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-of
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-tormentis
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-in
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-thyne
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-infernal
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-see
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">PUNC</attribute>
-                    </attributes>
-,
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-Amyd
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-the
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-fludis
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">PUNC</attribute>
-                    </attributes>
-,
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-Stix
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-and
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-Flagitoin
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">PUNC</attribute>
-                    </attributes>
-,
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-Lethie
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">PUNC</attribute>
-                    </attributes>
-,
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-Cochite
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">PUNC</attribute>
-                    </attributes>
-,
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-the
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-watyris
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-of
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-oblivie
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">PUNC</attribute>
-                    </attributes>
-,
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-With
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-dolorus
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-quhirling
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-of
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-furyus
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-sustyris
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-thre
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">PUNC</attribute>
-                    </attributes>
-,
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-Thyne
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-now
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-salbe
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-my
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-muse
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-and
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-drery
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-sang
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">PUNC</attribute>
-                    </attributes>
-:
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-To
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-follow
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-Virgil
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-in
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-this
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-dyrk
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-poyse
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-Convoy
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-me
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">PUNC</attribute>
-                    </attributes>
-,
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-Sibil
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">PUNC</attribute>
-                    </attributes>
-,
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-that
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-I
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-ga
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-nocht
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-wrang
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">PUNC</attribute>
-                    </attributes>
-.
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-Quhat
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-wenys
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-fulys
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-this
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-saxt
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-buke
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-be
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-bot
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">WORD</attribute>
-                    </attributes>
-iapis
-                </part>
-                <part tei-tag="w">
-                    <attributes>
-                        <attribute key="type">PUNC</attribute>
-                    </attributes>
-,
+                <part tei-tag="pb">
+                    <attributes>
+                        <attribute key="page">1</attribute>
+                    </attributes>
+                    <part tei-tag="lb">
+                        <attributes>
+                            <attribute key="line"/>
+                        </attributes>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            THE
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            PROLOUG
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            OF
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            THE
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            SAXT
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            BUKE
+                        </part>
+                    </part>
+                </part>
+                <part tei-tag="pb">
+                    <attributes>
+                        <attribute key="page">1</attribute>
+                    </attributes>
+                    <part tei-tag="lb">
+                        <attributes>
+                            <attribute key="line">1</attribute>
+                        </attributes>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            Pluto
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">PUNC</attribute>
+                            </attributes>
+                            ,
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            thou
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            patron
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            of
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            the
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            deip
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            Achiron
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">PUNC</attribute>
+                            </attributes>
+                            ,
+                        </part>
+                    </part>
+                    <part tei-tag="lb">
+                        <attributes>
+                            <attribute key="line">2</attribute>
+                        </attributes>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            Fader
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            of
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            tormentis
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            in
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            thyne
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            infernal
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            see
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">PUNC</attribute>
+                            </attributes>
+                            ,
+                        </part>
+                    </part>
+                    <part tei-tag="lb">
+                        <attributes>
+                            <attribute key="line">3</attribute>
+                        </attributes>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            Amyd
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            the
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            fludis
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">PUNC</attribute>
+                            </attributes>
+                            ,
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            Stix
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            and
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            Flagitoin
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">PUNC</attribute>
+                            </attributes>
+                            ,
+                        </part>
+                    </part>
+                    <part tei-tag="lb">
+                        <attributes>
+                            <attribute key="line">4</attribute>
+                        </attributes>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            Lethie
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">PUNC</attribute>
+                            </attributes>
+                            ,
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            Cochite
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">PUNC</attribute>
+                            </attributes>
+                            ,
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            the
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            watyris
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            of
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            oblivie
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">PUNC</attribute>
+                            </attributes>
+                            ,
+                        </part>
+                    </part>
+                    <part tei-tag="lb">
+                        <attributes>
+                            <attribute key="line">5</attribute>
+                        </attributes>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            With
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            dolorus
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            quhirling
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            of
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            furyus
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            sustyris
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            thre
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">PUNC</attribute>
+                            </attributes>
+                            ,
+                        </part>
+                    </part>
+                    <part tei-tag="lb">
+                        <attributes>
+                            <attribute key="line">6</attribute>
+                        </attributes>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            Thyne
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            now
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            salbe
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            my
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            muse
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            and
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            drery
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            sang
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">PUNC</attribute>
+                            </attributes>
+                            :
+                        </part>
+                    </part>
+                    <part tei-tag="lb">
+                        <attributes>
+                            <attribute key="line">7</attribute>
+                        </attributes>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            To
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            follow
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            Virgil
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            in
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            this
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            dyrk
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            poyse
+                        </part>
+                    </part>
+                    <part tei-tag="lb">
+                        <attributes>
+                            <attribute key="line">8</attribute>
+                        </attributes>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            Convoy
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            me
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">PUNC</attribute>
+                            </attributes>
+                            ,
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            Sibil
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">PUNC</attribute>
+                            </attributes>
+                            ,
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            that
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            I
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            ga
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            nocht
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            wrang
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">PUNC</attribute>
+                            </attributes>
+                            .
+                        </part>
+                    </part>
+                    <part tei-tag="lb">
+                        <attributes>
+                            <attribute key="line">9</attribute>
+                        </attributes>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            Quhat
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            wenys
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            fulys
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            this
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            saxt
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            buke
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            be
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            bot
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">WORD</attribute>
+                            </attributes>
+                            iapis
+                        </part>
+                        <part tei-tag="w">
+                            <attributes>
+                                <attribute key="type">PUNC</attribute>
+                            </attributes>
+                            ,
+                        </part>
+                    </part>
                 </part>
             </div>
         </div>

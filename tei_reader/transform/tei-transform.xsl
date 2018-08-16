@@ -60,6 +60,16 @@
             <xsl:apply-templates />
         </div>
     </xsl:template>
+    <!-- these page and line beginnings are processed by the reader -->
+    <xsl:template match="lb|pb">
+        <xsl:element name="{name(.)}">
+            <xsl:attribute name="tei-tag">
+                <xsl:value-of select="name(.)"/>
+            </xsl:attribute>
+            <xsl:call-template name="id" />
+            <xsl:call-template name="attributes" />
+        </xsl:element>
+    </xsl:template>
     <!-- elements used in editorialDecl, refsDecl -->
     <xsl:template match="correction|hyphenation|interpretation|normalization|punctuation|quotation|segmentation|stdVals|cRefPattern|refState">
         <attributes key="{name(.)}">

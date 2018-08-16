@@ -20,25 +20,25 @@
         <div tei-tag="text">
             <div tei-tag="body">
                 <div tei-tag="p">
-Hier staat wat
+                    Hier staat wat
                     <part id="foo" tei-tag="hi">
                         <attributes>
                             <attribute key="rend">italic</attribute>
                             <attribute key="xml:lang">de</attribute>
                         </attributes>
-wunderschöne
+                        wunderschöne
                     </part>
-tekst om het importeren van TEI-geformatteerde tekst te evalueren. Zij zei hierover tegen hem
+                     tekst om het importeren van TEI-geformatteerde tekst te evalueren. Zij zei hierover tegen hem
                     <part tei-tag="q">
                         <attributes>
                             <attribute key="note">
-Misschien
+                                Misschien
                                 <part tei-tag="hi">
                                     <attributes>
                                         <attribute key="rend">italic</attribute>
                                         <attribute key="xml:lang">en</attribute>
                                     </attributes>
-question
+                                    question
                                 </part>
                                 <part tei-tag="w">
                                     <attributes>
@@ -50,26 +50,26 @@ question
                                 ?
                             </attribute>
                         </attributes>
-wat is de
+                        wat is de
                         <part tei-tag="hi">
                             <attributes>
                                 <attribute key="rend">italic</attribute>
                                 <attribute key="xml:lang">fr</attribute>
                             </attributes>
-raison d’être
+                            raison d’être
                         </part>
-van deze tekst?
+                         van deze tekst?
                     </part>
-, niets dan ontzag volgde op deze vraag
+                    , niets dan ontzag volgde op deze vraag
                     <attributes>
                         <attribute key="note">
-Misschien
+                            Misschien
                             <part tei-tag="hi">
                                 <attributes>
                                     <attribute key="rend">italic</attribute>
                                     <attribute key="xml:lang">en</attribute>
                                 </attributes>
-question
+                                question
                             </part>
                             <part tei-tag="w">
                                 <attributes>
@@ -81,7 +81,7 @@ question
                             ?
                         </attribute>
                     </attributes>
-.
+                    .
                 </div>
             </div>
         </div>
