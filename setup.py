@@ -8,8 +8,8 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='tei_reader',
-    python_requires='>=3.6, <4',
-    version='0.0.16',
+    python_requires='>=3.5, <4',
+    version='0.0.17',
     description='TEI Reader',
     long_description=long_description,
     long_description_content_type='text/markdown',
