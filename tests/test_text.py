@@ -18,7 +18,7 @@ class TestText(unittest.TestCase):
                 diffs = list(diff for diff in differ.compare(
                     [line.strip() for line in f.readlines()],
                     [line.strip() for line in transformed.splitlines(keepends=False)]))
-                self.assertEqual(len([diff for diff in diffs if diff[0:2] != '  ']), 0, f"{tei} not transformed as expected:\n{linesep.join(diffs)}")
+                self.assertEqual(len([diff for diff in diffs if diff[0:2] != '  ']), 0, "{0} not transformed as expected:\n{1}".format(tei, linesep.join(diffs)))
 
 if __name__ == '__main__':
     unittest.main()

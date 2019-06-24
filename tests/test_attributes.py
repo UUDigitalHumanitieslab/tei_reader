@@ -19,16 +19,16 @@ class TestAttributes(unittest.TestCase):
                 diffs = list(diff for diff in differ.compare(
                     [line.strip() for line in f.readlines()],
                     [line.strip() for line in transformed.splitlines(keepends=False)]))
-                self.assertEqual(len([diff for diff in diffs if diff[0:2] != '  ']), 0, f"{tei} not transformed as expected:\n{linesep.join(diffs)}")
+                self.assertEqual(len([diff for diff in diffs if diff[0:2] != '  ']), 0, "{0} not transformed as expected:\n{1}".format(tei, linesep.join(diffs)))
     
 def inject_attributes(element, text):
     attributes = list(element.attributes)
     if not attributes:
         return text
 
-    pairs = '\n'.join(f'{attribute.key}="{attribute.text.strip()}"' for attribute in attributes)
+    pairs = '\n'.join('{0}="{1}"'.format(attribute.key, attribute.text.strip()) for attribute in attributes)
 
-    return f'[{pairs}]{text}'
+    return '[{0}]{1}'.format(pairs, text)
 
 if __name__ == '__main__':
     unittest.main()

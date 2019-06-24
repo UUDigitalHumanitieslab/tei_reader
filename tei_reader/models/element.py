@@ -131,4 +131,4 @@ class Element:
         element.
         """
 
-        return inject(self, '\n'.join(f'{division.tostring(inject)}' for division in self.divisions))
+        return inject(self, '\n'.join(division.tostring(inject) for division in self.divisions))

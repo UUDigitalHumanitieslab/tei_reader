@@ -14,10 +14,10 @@ class TestTransform(unittest.TestCase):
         self.assertEqual(len(tei_files), len(expected_files))
         for (tei, expected) in zip(tei_files, expected_files):
             corpora = reader.read_file(tei)
-            self.check_corpora(corpora, expected, f'{tei} (as file)')            
+            self.check_corpora(corpora, expected, '{0} (as file)'.format(tei))
             with open(tei, encoding='utf-8') as f:
                 corpora = reader.read_string(f.read())
-                self.check_corpora(corpora, expected, f'{tei} (as string)')
+                self.check_corpora(corpora, expected, '{0} (as string)'.format(tei))
 
 
     def check_corpora(self, corpora, expected, id):
@@ -27,7 +27,7 @@ class TestTransform(unittest.TestCase):
             diffs = list(diff for diff in differ.compare(
                 [line.strip() for line in f.readlines()],
                 [line.strip() for line in transformed.splitlines(keepends=False) if line.strip() != '']))
-            self.assertEqual(len([diff for diff in diffs if diff[0:2] != '  ']), 0, f"{id} not transformed as expected:\n{linesep.join(diffs)}")
+            self.assertEqual(len([diff for diff in diffs if diff[0:2] != '  ']), 0, "{0} not transformed as expected:\n{1}".format(id, linesep.join(diffs)))
 
 if __name__ == '__main__':
     unittest.main()
