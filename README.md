@@ -35,7 +35,8 @@ A reader can be opened using `TeiReader()`. It is then possible to either call `
 | `attributes{}` | Contain attributes applicable to this element. If an attribute contains attributes these are also returned. (e.g. `encodingDesc::editorialDecl::normalization`) |
 | `text` | Get the entire text content as `str` |
 | `divisions[]` | Recursively get all the text divisions in document order. If an element contains parts or text without tag. Those will be returned in order and wrapped with a `PlaceholderDivision`. |
-| `parts[]` | Recursively get the parts in document order constituting the entire text e.g. if something has emphasis, a footnote or is marked as foreign. Text without a container element will be returned in order and wrapped with a `PlaceholderPart`. |
+| `all_parts[]` | Recursively get the parts in document order constituting the entire text e.g. if something has emphasis, a footnote or is marked as foreign. Text without a container element will be returned in order and wrapped with a `PlaceholderPart`. |
+| `parts[]` | Get the parts in document order directly below the current element. |
 
 `Attribute`, `PlaceholderDivision` and `PlaceholderPart` all support the same properties as `Element`.
 
