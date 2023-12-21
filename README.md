@@ -6,6 +6,8 @@ Python 3 Library for Reading the Text Content and Metadata of TEI P5 (Lite) File
 
 The library focuses on extracting the main text content from a file and providing the available metadata about the text.
 
+It was originally created to support importing TEI formatted corpora into [GrETEL](https://gretel.hum.uu.nl/ng/home), using the [corpus2alpino](https://github.com/UUDigitalHumanitieslab/corpus2alpino) library.
+
 # TL;DR
 
 ```bash
