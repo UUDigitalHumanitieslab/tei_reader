@@ -19,4 +19,4 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.10418496
 repository-code: 'https://github.com/UUDigitalHumanitieslab/tei_reader'
-license: BSD-3-Clause
+license: MIT
