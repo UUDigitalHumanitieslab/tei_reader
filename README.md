@@ -1,8 +1,10 @@
-[![Build Status](https://travis-ci.org/UUDigitalHumanitieslab/tei_reader.svg?branch=master)](https://travis-ci.org/UUDigitalHumanitieslab/tei_reader)
+# tei_reader
+[![DOI](https://zenodo.org/badge/122958778.svg)](https://zenodo.org/doi/10.5281/zenodo.10418495)
+[![PyPI version](https://badge.fury.io/py/tei-reader.svg)](https://badge.fury.io/py/tei-reader)
 
-# Python 3 Library for Reading the Text Content and Metadata of TEI P5 (Lite) Files
+Python 3 Library for Reading the Text Content and Metadata of TEI P5 (Lite) Files
 
-The library focuses on extracting the main text content from a file and provide the available metadata about the text.
+The library focuses on extracting the main text content from a file and providing the available metadata about the text.
 
 # TL;DR
 
